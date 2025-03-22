@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.hero {
+    background: #e9ecef;
+    padding: 2rem 0;
+}
+
+#mePicture {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#projectPic {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Skills */
+.skills__skill {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+}
+
+/* Social Media */
+#socialMedia img {
+    width: 40px;
+    height: 40px;
+}

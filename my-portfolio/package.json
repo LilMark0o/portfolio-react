@@ -1,0 +1,17 @@
+{
+  "name": "astro_portfolio",
+  "version": "1.0.0",
+  "scripts": {
+  "dev": "astro dev",
+  "build": "astro build",
+  "preview": "astro preview",
+  "deploy": "astro build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "astro": "^2.0.0",
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

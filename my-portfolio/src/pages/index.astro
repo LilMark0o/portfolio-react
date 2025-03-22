@@ -1,0 +1,212 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Project from "../components/Project.astro";
+import Hero from "../components/Hero.astro";
+// Import projects data (adjust the path as needed)
+import projects from "../data/projects.json";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="/images/briefcase-fill.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="/main.js" defer></script>
+
+    <title>Marco Portfolio</title>
+  </head>
+
+  <body>
+    <div class="bg-white container-fluid mx-0">
+      <!-- Header / Navigation -->
+      <Header />
+
+      <!-- Minimalist Hero Section -->
+      <div class="bg-white row justify-content-center">
+        <div class="col-10 col-md-8 text-center">
+          <Hero />
+        </div>
+      </div>
+
+      <!-- WORKING EXPERIENCE SECTION -->
+      <div class="bg-white py-5">
+        <div class="row justify-content-center pb-5 my-3">
+          <div class="col-10 col-md-8 text-center">
+            <h3><b>Working Experience </b></h3>
+            <hr />
+            <div class="row">
+              <!-- Card 1 -->
+              <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title"
+                      ><b>Data Analysis Intern at DiDi</b></h5
+                    >
+                    <h6 class="card-subtitle mb-2 text-muted"
+                      ><i>June 2024 - Present</i></h6
+                    >
+                    <p class="card-text">
+                      - Conducted data analysis to improve performance metrics.
+                      <br />
+                      - Collaborated with cross-functional teams to enhance data-driven
+                      decision-making.
+                      <br />
+                      - Developed and implemented machine learning models using Python.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title"><b>Freelance Web Developer</b></h5>
+                    <h6 class="card-subtitle mb-2 text-muted"
+                      ><i>January 2023 - May 2024</i></h6
+                    >
+                    <p class="card-text">
+                      - Developed responsive web applications for various
+                      clients using Django and Bootstrap.
+                      <br />
+                      - Implemented additional frameworks such as Angular to enhance
+                      user experience.
+                      <br />
+                      - Utilized technologies like HTML, CSS, and JavaScript to deliver
+                      user-friendly interfaces.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILLS SECTION  -->
+        <div class="row justify-content-center pb-5">
+          <div class="col-10 col-md-8 text-center">
+            <h3><b>Skills</b></h3>
+            <hr />
+            <div id="skills">
+              <!-- Web Development Skills -->
+              <div class="skills__skill web"
+                ><i class="bi bi-code skills__icon"></i>HTML</div
+              >
+              <div class="skills__skill web"
+                ><i class="bi bi-brush skills__icon"></i>CSS</div
+              >
+              <div class="skills__skill web"
+                ><i class="bi bi-bootstrap skills__icon"></i>Bootstrap</div
+              >
+              <div class="skills__skill web"
+                ><i class="bi bi-phone skills__icon"></i>Responsive Design</div
+              >
+              <div class="skills__skill web"
+                ><i class="bi bi-file-earmark-code skills__icon"
+                ></i>JavaScript</div
+              >
+
+              <!-- Python/Programming Skills -->
+              <div class="skills__skill programming"
+                ><i class="bi bi-filetype-py skills__icon"></i>Python</div
+              >
+              <div class="skills__skill programming"
+                ><i class="bi bi-puzzle skills__icon"></i>Pandas</div
+              >
+              <div class="skills__skill programming"
+                ><i class="bi bi-calculator skills__icon"></i>NumPy</div
+              >
+              <div class="skills__skill programming"
+                ><i class="bi bi-server skills__icon"></i>Flask</div
+              >
+              <div class="skills__skill programming"
+                ><i class="bi bi-binoculars skills__icon"></i>Selenium</div
+              >
+
+              <!-- Database Skills -->
+              <div class="skills__skill database"
+                ><i class="bi bi-database skills__icon"></i>MySQL</div
+              >
+              <div class="skills__skill database"
+                ><i class="bi bi-database skills__icon"></i>MongoDB</div
+              >
+              <div class="skills__skill database"
+                ><i class="bi bi-database skills__icon"></i>Oracle SQL</div
+              >
+
+              <!-- Other Skills -->
+              <div class="skills__skill other"
+                ><i class="bi bi-git skills__icon"></i>Git</div
+              >
+              <div class="skills__skill other"
+                ><i class="bi bi-brain skills__icon"></i>TensorFlow</div
+              >
+              <div class="skills__skill other"
+                ><i class="bi bi-bar-chart-line skills__icon"
+                ></i>Scikit-learn</div
+              >
+              <div class="skills__skill other"
+                ><i class="bi bi-clipboard-check skills__icon"></i>Systems
+                Analysis</div
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECTS SECTION -->
+        <!-- PROJECTS SECTION -->
+        <div class="row justify-content-center my-3" id="projects">
+          <div class="col-10 col-md-8 text-center">
+            <h3><b>Projects</b></h3>
+            <hr />
+            <p>
+              Here you will find some of the personal and group projects that I
+              created.
+              <br />
+              Each project contains its own description.
+            </p>
+          </div>
+        </div>
+
+        <!-- Wrap Project components in a container to match other sections -->
+        <div class="row justify-content-center">
+          <div class="col-10 col-md-8">
+            {projects.map((project) => <Project {...project} />)}
+          </div>
+        </div>
+
+        <!-- Footer / Social Media -->
+        <Footer />
+      </div>
+
+      <!-- Bootstrap Bundle JS -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
