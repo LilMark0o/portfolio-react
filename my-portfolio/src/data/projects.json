@@ -3,52 +3,73 @@
     "title": "Local Google Drive Web-App",
     "titleLink": "https://github.com/LilMark0o/FreeStorage-Open",
     "description": "A locally hosted file storage system that mimics Google Drive functionality for free, offering users a personal file management experience. Built with Python and Django (using Celery and Redis for performance), it allows easy file upload, download, and sharing files with your friends.",
-    "image": "/portfolio-react/images/telegram.png",
+    "image": "/images/telegram.png",
     "links": [
-      { "link": "https://freestorage.online", "link_text": "Use the app here!" },
-      { "link": "https://github.com/LilMark0o/FreeStorage-Open", "link_text": "Check out the code here!" },
-      { "link": "https://www.youtube.com/watch?v=CerNoVma3tg&feature=youtu.be", "link_text": "Watch the project video!" }
+      {
+        "link": "https://freestorage.online",
+        "link_text": "Use the app here!"
+      },
+      {
+        "link": "https://github.com/LilMark0o/FreeStorage-Open",
+        "link_text": "Check out the code here!"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=CerNoVma3tg&feature=youtu.be",
+        "link_text": "Watch the project video!"
+      }
     ]
   },
   {
     "title": "Full Stack Web Application with Web Scraping",
     "titleLink": "https://www.youtube.com/watch?v=TQgP3TxZMHQ&ab_channel=Marco",
     "description": "Developed a full-stack application using Flask for the backend (API), Angular for the frontend, and integrated web scraping. Implemented data storage in a cloud-based MySQL database.",
-    "image": "/portfolio-react/images/FullStack.png",
+    "image": "/images/FullStack.png",
     "links": [
-      { "link": "https://github.com/LilMark0o/MoviesFront", "link_text": "Frontend code" },
-      { "link": "https://github.com/LilMark0o/MoviesBack", "link_text": "API code" },
-      { "link": "https://github.com/LilMark0o/movies", "link_text": "Web scraping code" }
+      {
+        "link": "https://github.com/LilMark0o/MoviesFront",
+        "link_text": "Frontend code"
+      },
+      {
+        "link": "https://github.com/LilMark0o/MoviesBack",
+        "link_text": "API code"
+      },
+      {
+        "link": "https://github.com/LilMark0o/movies",
+        "link_text": "Web scraping code"
+      }
     ]
   },
   {
     "title": "Web-Scraping and Data Visualization",
     "titleLink": "https://github.com/LilMark0o/Web-Scraping",
     "description": "Using Selenium, this Python program scrapes CompuTrabajos website for job listings in your preferred city, saving the data in a MySQL database. Visualize the data with Matplotlib.",
-    "image": "/portfolio-react/images/dataAnalytics.jpg",
+    "image": "/images/dataAnalytics.jpg",
     "links": []
   },
   {
     "title": "Python Music Videos Creator",
     "titleLink": "https://github.com/LilMark0o/CreadorDeVideos",
     "description": "A Python program that creates random videos with classical (or any) music, featuring images in various formats. Intended for a YouTube channel focused on relaxing music.",
-    "image": "/portfolio-react/images/creatorVideos.jpg",
+    "image": "/images/creatorVideos.jpg",
     "links": [
-      { "link": "https://www.youtube.com/watch?v=ciY7iYd9v3A", "link_text": "More details!" }
+      {
+        "link": "https://www.youtube.com/watch?v=ciY7iYd9v3A",
+        "link_text": "More details!"
+      }
     ]
   },
   {
     "title": "Free Room Website",
     "titleLink": "https://free-room.herokuapp.com",
     "description": "Free Room Website provides students at Universidad de los Andes a platform to find free classrooms for quiet study.",
-    "image": "/portfolio-react/images/FreeRoom.jpg",
+    "image": "/images/FreeRoom.jpg",
     "links": []
   },
   {
     "title": "Python Videos Creator About Any Topic",
     "titleLink": "https://github.com/LilMark0o/CreateVideosWithChatGPT",
     "description": "A Python program that creates YouTube videos with voice narration on any topic using ChatGPT for scripting and gTTS for audio.",
-    "image": "/portfolio-react/images/videosWithChatGPT.jpg",
+    "image": "/images/videosWithChatGPT.jpg",
     "links": []
   }
 ]

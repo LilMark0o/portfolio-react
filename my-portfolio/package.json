@@ -1,13 +1,13 @@
 {
   "name": "astro_portfolio",
   "version": "1.0.0",
-  "homepage": "https://lilmark0o.github.io/portfolio-react/",
+  "homepage": "https://lilmark0o.github.io/",
   "scripts": {
-  "dev": "astro dev",
-  "build": "astro build",
-  "preview": "astro preview",
-  "predeploy": "astro build",
-  "deploy": "gh-pages -d dist"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "predeploy": "astro build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "astro": "^2.0.0",
