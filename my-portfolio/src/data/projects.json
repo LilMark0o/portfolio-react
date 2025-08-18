@@ -1,5 +1,15 @@
 [
   {
+    "title": "Artigo AI",
+    "titleLink": "https://www.youtube.com/watch?v=MNFAHzY0P3E",
+    "description": "An AI-powered language learning platform designed to make learning fun and effective. Artigo replaces boring textbooks by generating infinite, personalized articles on any topic you love. It turns reading into an active learning loop with one-click translations, vocabulary saving, and a smart review system to ensure you never forget what you learn.",
+    "image": "/images/artigo.png",
+    "links": [
+      { "link": "https://www.artigo-ai.com", "link_text": "Use the app here!" },
+      { "link": "https://www.youtube.com/watch?v=MNFAHzY0P3E", "link_text": "Watch the project video!" }
+    ]
+  },
+  {
     "title": "Local Google Drive Web-App",
     "titleLink": "https://github.com/LilMark0o/FreeStorage-Open",
     "description": "A locally hosted file storage system that mimics Google Drive functionality for free, offering users a personal file management experience. Built with Python and Django (using Celery and Redis for performance), it allows easy file upload, download, and sharing files with your friends.",
