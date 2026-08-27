@@ -13,8 +13,9 @@
     "tag": "Founder",
     "description": "AI-driven SaaS ERP built with Django and Astro, automating predictive inventory and procurement via NLP. Reached $1.2K MRR and cut stockouts for partner companies.",
     "image": null,
-    "note": "Private — no public link yet",
-    "links": []
+    "links": [
+      { "link": "https://aiventory.cloud/", "link_text": "Live site" }
+    ]
   },
   {
     "title": "Local Google Drive Web-App",
