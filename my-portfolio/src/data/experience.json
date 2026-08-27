@@ -1,0 +1,41 @@
+[
+  {
+    "role": "Founding Software Engineer",
+    "company": "Helios (YC W23)",
+    "dates": "Feb 2026 — Present",
+    "current": true,
+    "bullets": [
+      "Shipped full-stack features across back-end, front-end, and workflow automations, contributing to +300% ARR growth in the first 3 months.",
+      "Owned enterprise integrations end-to-end as sole technical point of contact, closing 2 enterprise accounts and multiple SMBs."
+    ]
+  },
+  {
+    "role": "Back-end Developer / Data Analyst",
+    "company": "Habi",
+    "dates": "Sep 2025 — Feb 2026",
+    "current": false,
+    "bullets": [
+      "Engineered back-end services in Python to automate mortgage credit analysis and reporting workflows.",
+      "Improved user acceptance rate by +10% by refining a proprietary credit risk model, without raising the default rate."
+    ]
+  },
+  {
+    "role": "Goal Setting & Tactics Intern",
+    "company": "DiDi",
+    "dates": "Jun 2024 — Jan 2025",
+    "current": false,
+    "bullets": [
+      "Deployed an ensemble of ML models (Random Forest, GBM, SVM) for predictive analytics, cutting manual evaluation latency by +90%.",
+      "Orchestrated automated ETL pipelines with Python and SQL, reducing reporting cycle times by over 80%."
+    ]
+  },
+  {
+    "role": "Participant, UN Datathon 2024",
+    "company": "Amazon Sponsored",
+    "dates": "Oct 2024",
+    "current": false,
+    "bullets": [
+      "Modeled the financial impact of gentrification via geospatial and spatial regression analysis on census data."
+    ]
+  }
+]

@@ -1,1 +1,55 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap");
+
+@theme {
+  --color-bg: #fbfaf8;
+  --color-surface: #ffffff;
+  --color-border: #e8e5e1;
+  --color-border-hover: #c9c6c1;
+  --color-text: #17151f;
+  --color-text-muted: #5f5c68;
+  --color-text-faint: #928f99;
+  --color-accent: #4553e3;
+  --font-display: "Sora", system-ui, sans-serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a:hover {
+    color: var(--color-accent);
+  }
+}
+
+@layer components {
+  .link-arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 2px;
+  }
+
+  .link-arrow:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+
+  .link-arrow svg {
+    transition: transform 0.15s ease;
+  }
+
+  .link-arrow:hover svg {
+    transform: translate(2px, -2px);
+  }
+}

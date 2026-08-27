@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Languages & Backend",
+    "skills": ["Java", "Spring Boot", "Python", "Django", "Flask", "FastAPI", "SQL"]
+  },
+  {
+    "category": "Frontend",
+    "skills": ["React", "Next.js", "Astro", "Tailwind"]
+  },
+  {
+    "category": "Databases",
+    "skills": ["PostgreSQL", "OracleSQL", "MongoDB", "Firebase"]
+  },
+  {
+    "category": "ML & Data Analysis",
+    "skills": ["Scikit-learn", "TensorFlow", "Pandas", "NumPy", "Power BI"]
+  },
+  {
+    "category": "Cloud & DevOps",
+    "skills": ["Google Cloud", "AWS", "Docker", "Jenkins"]
+  },
+  {
+    "category": "Tools",
+    "skills": ["Git", "Selenium", "SonarQube"]
+  }
+]

@@ -12,8 +12,6 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",
     "astro": "^5.5.5",
-    "bootstrap": "^5.3.3",
-    "npx": "^10.2.2",
     "tailwindcss": "^4.0.17"
   },
   "devDependencies": {
